@@ -1,7 +1,7 @@
 Nodyn Beer-as-a-Service Examples
 ================================
 
-[Nodyn](http://nodyn.io) examples with using [Vert.x](http://vertx.io) eventbus.
+[Nodyn](http://nodyn.io) examples using [Vert.x](http://vertx.io) eventbus.
 
 Example 1: Nodyn with Vert.x
 ----------------------------
@@ -10,23 +10,23 @@ Example 1: Nodyn with Vert.x
 
 Run
 
-``$ nodyn beer-as-a-service.js``
+    $ nodyn beer-as-a-service.js
 
 the console will print
 
-``Beer-Server listening on port 9000``
+    Beer-Server listening on port 9000
 
 Point your browser to
 
-``http://localhost:9000/5``
+    http://localhost:9000/5
 
 The result in your browser will be
 
-``5 beer will be ready in 8.75 minutes``
+    5 beer will be ready in 8.75 minutes
 
 The console will print
 
-``BAR: someone ordered 5 beer``
+    BAR: someone ordered 5 beer
 
 
 Example 2: Vert.x with Nodyn
@@ -36,7 +36,7 @@ Example 2: Vert.x with Nodyn
 
 Run in console 1
 
-``$  vertx runmod io.nodyn.vertx~mod-nodyn~1.0.0-SNAPSHOT -conf berr.conf -cluster``
+    $ vertx runmod io.nodyn.vertx~mod-nodyn~1.0.0-SNAPSHOT -conf berr.conf -cluster
 
 Output will be
 
@@ -45,7 +45,7 @@ Output will be
 
 Run in console 2
 
-``$ vertx run beer-bar.js -cluster``
+    $ vertx run beer-bar.js -cluster
 
 Output of console 2 will be
 
@@ -54,12 +54,12 @@ Output of console 2 will be
 
 After pointing the browser to
 
-``http://localhost:9000/5``
+    http://localhost:9000/5
 
 The response in the browser will be
 
-``5 beer will be ready in 8.75 minutes``
+    5 beer will be ready in 8.75 minutes
 
 Console 1 will not print anything, but in console 2 there will be
 
-``BAR: Someone ordered 5 beer``
+    BAR: Someone ordered 5 beer
