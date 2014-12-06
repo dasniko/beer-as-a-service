@@ -40,6 +40,7 @@ Run in console 1
 
 Output will be
 
+    ...
     Beer server is listening on port 9000
     Succeeded in deploying module
 
@@ -49,6 +50,7 @@ Run in console 2
 
 Output of console 2 will be
 
+    ...
     The BAR ist open!
     Succeeded in deploying module
 
