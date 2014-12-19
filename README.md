@@ -22,11 +22,11 @@ Point your browser to
 
 The result in your browser will be
 
-    5 beer will be ready in 8.75 minutes
+    5 beer(s) will be ready in 8.75 minutes
 
 The console will print
 
-    BAR: someone ordered 5 beer
+    BAR: someone ordered 5 beer(s)
 
 
 Example 2: Vert.x with Nodyn
@@ -60,8 +60,8 @@ After pointing the browser to
 
 The response in the browser will be
 
-    5 beer will be ready in 8.75 minutes
+    5 beer(s) will be ready in 8.75 minutes
 
 Console 1 will not print anything, but in console 2 there will be
 
-    BAR: Someone ordered 5 beer
+    BAR: Someone ordered 5 beer(s)

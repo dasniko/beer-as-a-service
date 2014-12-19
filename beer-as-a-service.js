@@ -3,7 +3,7 @@ var vertx = require("vertx2-core");
 
 var registration = vertx.eventbus.register("bar", function(message) {
   var amount = message.body.amount;
-  console.log("BAR: Someone ordered " + amount + " beer.");
+  console.log("BAR: Someone ordered " + amount + " beer(s).");
   message.reply({wait_time: amount * 1.75});
 });
 
@@ -14,7 +14,7 @@ var server = http.createServer(function(request, response) {
 
   if (!isNaN(amount)) {
     vertx.eventbus.send("bar", {amount: amount}, function(message) {
-      response.write(amount + " beer will be ready in " + message.body.wait_time + " minutes");
+      response.write(amount + " beer(s) will be ready in " + message.body.wait_time + " minutes");
       response.end();
     });
   }
