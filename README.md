@@ -36,7 +36,7 @@ Example 2: Vert.x with Nodyn
 
 Run in console 1
 
-    $ vertx runmod io.nodyn.vertx~mod-nodyn~1.0.0-SNAPSHOT -conf berr.conf -cluster
+    $ vertx runmod io.nodyn.vertx~mod-nodyn~1.0.0-SNAPSHOT -conf beer.conf -cluster
 
 Output will be
 
