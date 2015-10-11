@@ -1,0 +1,30 @@
+{
+  "name": "beer-as-a-service",
+  "version": "1.0.0",
+  "description": "Beer-as-a-service implementation using Nodyn and Vert.x",
+  "main": "beer-as-a-service.js",
+  "dependencies": {
+    "express": "4.13.3",
+    "body-parser": "1.10.1",
+    "path": "0.12.7",
+    "fs": "0.0.2",
+    "vertx2-core": "nodyn/vertx2-core"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasniko/beer-as-a-service.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nodyn",
+    "vertx",
+    "beer",
+    "javascript"
+  ],
+  "author": "Niko Köbler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasniko/beer-as-a-service/issues"
+  },
+  "homepage": "https://github.com/dasniko/beer-as-a-service"
+}

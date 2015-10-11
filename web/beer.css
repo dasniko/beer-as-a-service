@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+}
+
+img {
+  padding-top: 20px;
+}
+
+input#amount {
+  width: 60px;
+}
